@@ -1,0 +1,312 @@
+.navbar-default{
+	color: #272727;
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+}
+.logo img{
+	float: left;
+	padding-right: 12px;
+}
+.navhead{
+	padding: 0 0 15px;
+	font-style: arial;
+	font-size: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold ;
+	text-decoration: none;
+}
+.list-responsive{
+	padding: 0 auto;
+}
+.navhead li a{
+	color: black;
+	text-decoration: none;
+}
+.navhead .danger{
+	color: red;
+}
+
+.header-logo{
+	float: left;
+}
+.header-container.header_style_2 #header {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ebebeb;
+}
+.header-container.header_style_2 #header {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.nav-primary-container {
+    background: #fff;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    line-height: 24px;
+}
+/*imagem após os menus*/
+.principal{	
+	background: url("../img/cama-casal-02.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 45%;
+	/*border: 1px solid blue;*/
+	padding-right: -16px;
+	padding-left: -16px;
+}
+#body{
+	padding-top: 1%;
+	padding-bottom: 50%;
+	border: 2px solid green;
+}
+.selectpicker{
+	border-radius: 0px;
+	width: 15%;
+}
+.produtos{
+	margin: 3% ;
+}
+.thumbnail{
+	border-radius: 0px;
+	width: 100%;
+}
+.thumbnail img{
+	width: 90%;
+	overflow: hidden;
+}
+.dropdown-menu {
+    margin-top: -17px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.footer-container a {
+    letter-spacing: 0px;
+    color: #272727;
+}
+.footer-copyright .wrapper-copyright {
+    border-top: 1px solid #616161;
+    padding: 1.5em 0;
+    line-height: 22px;
+    font-size: 0.917em;
+    text-transform: uppercase;
+}
+.footer-container .footer-copyright address {
+    font-weight: bold;
+    color: #555;
+}
+
+.header-top {
+		    color: #272727;
+		    background: #fff;
+		    border-bottom: 1px solid #ebebeb;
+}
+.footer-container {
+    background: #FFD430;
+    padding-top: 3%;
+}
+
+.container {
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    margin-right: auto;
+		    margin-left: auto;
+}
+.header-container .header-top .header-social {
+	float: left;
+}
+.header-container .header-top a {
+    color: #272727;
+		    background: #fff;
+}
+.header-container .header-top .header-top-link {
+    border-right: 1px solid #ebebeb;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-container .header-top .header-top-right-inner {
+    float: right;
+}
+.header-container .header-top .header-top-link .header-top-link-ul > li {
+    position: relative;
+}
+.header-container .header-top ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.header-container .header-top a {
+    color: #272727;
+    background: #fff;
+}
+a .corporativeLink {
+    padding: 0!important;
+    margin: 0;
+    font-size: 1em!important;
+}
+body {
+    font-size: 12px;
+    color: #b8b8b8;
+    font-family: Montserrat;
+    background-color: #fff;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+/*.fa-building{
+	padding: 5px;
+	font-size: 100%;
+}
+.fa-envelope{
+	padding: 5px;
+	font-size: 100%;
+}
+.fa-user{
+	padding: 5px;
+	font-size: 100%;
+}*/
+.social{
+	border-left: 1px solid #ebebeb;
+	border-radius: 0;
+}
+.social li a i{
+	margin:20px;
+}
+.container-fluid{
+	float:right;
+}
+.principal .container{
+	margin-top: 10%;
+	background-color: #FFF;
+	/*border: 1px solid black;*/
+}
+.value{
+	padding: 0 0 12px;
+	color: #e2e218;
+	font-weight: bold;
+}
+
+
+/* Card Freewall!!*/
+
+
+
+
+#card {
+      width: 80%;
+      margin: auto;
+}
+.item {
+    background: rgb(135, 199, 135);
+    width: 320px;
+    height: 320px;
+}
+.arw-toggle-menu-mobile {
+    background: #fff;
+    color: #b8b8b8;
+    float: right;
+}
+
+
+
+/* Medias query*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 720px) {
+	/*menu responsivo*/
+	.header-top{
+	  width:100%;
+	  background-color:;
+	}
+	/*container com opções*/
+	.container-fluid{
+		width:100%;
+	}
+	.item-dropdown{
+		display: none;
+	}
+	/*classe com a lista de opções*/
+	.header-top .list-responsive{
+	  width:100%;
+	}
+	/*div das redes sociais*/
+	.social{
+		width: 100%;
+	}
+	/*ícones das redes sociais*/
+	.header-social{
+		width: 33%;
+	}
+
+	/*class da lista do menu responsivo*/
+	.nav-item a{
+	  width:100%;
+	  color: yellow;
+	  /*padding: 200px;*/
+	  float:none;
+	  *display: inline;
+	}
+
+   .header-logo{
+   		width: 100%;
+   		padding-top: 0;
+   		/*border: 2px solid green;*/
+   }
+   
+   .header-container .header-wrapper .header-logo .logo img {
+	   	/*position: absolute;*/
+    	margin: 0 auto;
+    	/*border: 2px solid blue;*/
+    	padding: 0 auto;
+   }
+
+   .bolhaP{
+   		display: none;
+   }
+   .bolhaG{
+	   	display: none;
+   }
+
+
+}
+@media only screen and (max-width: 1042px){
+	 .bolhaP{
+   		display: none;
+   }
+   .bolhaG{
+	   	display: none;
+   }
+   .selectpicker{
+   	width: 35%;
+   }
+}
+
+
+@media only screen and (min-width: 1200px){
+	.container{
+		width: 1170px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.header-container .header-top a{
+		padding: 11px 2px;
+	}
+}

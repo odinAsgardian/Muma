@@ -1,0 +1,95 @@
+.bolhaG {
+    position: absolute; 
+    border-radius: 50%;
+    display: inline-block;
+    line-height:170px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 17px;
+    height:170px;
+    width: 170px;
+    border: 1px solid #93d0d6 ;
+    background-color: #8cb4cc ;
+    box-shadow: inset -10px -10px 10px #256990 , inset 3px 3px 5px #89cede;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+.bolhaG a{
+    text-decoration: none;    
+    color:#FFFFFF;
+}
+.bolhaG:hover{
+    height: 210px;
+    width: 210px;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+} 
+
+.bolhaP {
+    border-radius: 50%;
+    display: inline-block;
+    line-height:110px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    position: absolute; 
+    height:110px;
+    width: 110px;
+    border: 1px solid #609a6a;
+    background-color:#86d293 ;
+    box-shadow: inset -10px -10px 10px #36a55d , inset 3px 3px 5px #9ffbc8;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+.bolhaP a{
+    text-decoration: none;    
+    color: #FFFFFF;
+}
+.bolhaP:hover {
+  height:140px;
+  width: 140px;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+#quartos{ 
+  top: 35%;
+  right: 11%;
+}
+#sala-estar{
+    top: 36%;
+    right: 35%;
+}
+
+#escritorio{
+    top: 36%;
+    left:15%;
+}
+#mesa-centro{
+    top: 37%;
+    left: 42%
+}
+#cadeira{
+    top: 25%;
+    right: 39%;
+}
+#escrivaninha{
+    top: 29%;
+    left: 10%;
+}
+#comoda{
+    top: 27%;
+    right: 6%;
+}
+#estante{
+    top: 35%;
+    right:22%;
+}
